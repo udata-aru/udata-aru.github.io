@@ -1,29 +1,23 @@
-<!DOCTYPE html>
-<!--
-  Original Design: Spectral by HTML5 UP
-    html5up.net | @n33co
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  Jekyll build mod
--->
-<html>
+---
+layout: compress
+---
+<!doctype html>
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
+	{% include _head.html %}
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+	{% unless page.skip_boilerplate %}
+	{% include _navigation.html %}
+	{% endunless %}
 
-  {% include head.html %}
+	{% include _masthead.html %}
+	{{ content }}
 
-  <body>
+	{% unless page.skip_boilerplate %}
+	{% include _footer.html %}
+	{% endunless %}
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
-
-      {% include header.html %}
-
-      {{ content }}
-
-      {% include footer.html %}
-
-      {% include scripts.html %}
-
-    </div>
-
-  </body>
-
+	{% include _footer_scripts.html %}
+</body>
 </html>
