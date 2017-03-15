@@ -5,7 +5,7 @@ title: LINEA BASE DEL PROGRAMA JIWASA, FUNDACIÓN ARU
 description: ""
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "https://yourdomain.com"
 
 # Build settings
 markdown: kramdown
