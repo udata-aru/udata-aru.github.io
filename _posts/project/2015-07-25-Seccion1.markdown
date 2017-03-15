@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "1. Variables de Identificación"
+date:   2015-07-25 16:54:44
+author: Unidad de Datos
+categories:
+- project
+img: identificacion.jpg
+thumb: identificacion.jpg
+carousel:
+- single01.jpg
+- single02.jpg
+- single03.jpg
+client: Wonder Corp.
+website: http://blacktie.co
+---
+####YOUR PROJECT NAME
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
+####Our Proposal
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+<script type="text/javascript" src="//www.google.com/trends/embed.js?hl=es-419&q=Radio+Erbol,+Radio+Patria+Nueva,+Radio+Fides+Bolivia,+Radio+Deseo&geo=BO&date=2015-09-04T00%5C:00%5C:00+144H&cmpt=q&tz=Etc/GMT%2B4&tz=Etc/GMT%2B4&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330"></script>
