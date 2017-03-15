@@ -1,104 +1,59 @@
-### GENERAL SETTINGS ###
+# Welcome to Jekyll!
+#
 
 # Site settings
-title: LINEA BASE DEL PROGRAMA JIWASA, FUNDACIÓN ARU
-description: ""
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "https://yourdomain.com"
+title: Spectral
+description: |
+  Another fine responsive  
+  site template freebie  
+  crafted by [HTML5 UP](http://html5up.net)
+owner: Your Name # or company name
+first_published: 2016 # if migrating another site, the year of your first publish
+email: your-email@domain.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+social:
+  twitter: https://twitter.com/<username>
+  github: https://github.com/<username>
+  linkedin-square: https://linkedin.com/in/<username>
+  facebook-official: https://facebook.com/<username>
+  google-plus-square: https://plus.google.com/u/0/+<username>
+  #email: /contact/
+  #flickr:
+  #instagram:
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
-
-colors:  #in hex code if not noted else
-  primary: "#b3ad93" #"#F70031" 
-  primary_rgb: "241,241,241" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
-  secondary: "#353535" #"#33004D"
-  link: "#100203"
-  link_hover: "#01b2fe"
-  footer_heading: "#100203"
-  footer_content: "#bfc9d3"
-  
-  
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: facebook
-    url: https://www.facebook.com/FundacionARU?fref=ts
-  - title: twitter
-    url: https://twitter.com/ARUFoundation
-    
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - 3000 Av. Del Libertador 
-    - (final Av. Arce, casi al frente de la casa presidencial)
-    - San Jorge, La Paz - Bolivia.
-email: achirino@aru.org.bo
-tel: +591 2-2004492, +591 2-2004491 
-
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
-# Members information. Shown on About page.
-members:
-  - name: Paul Villarroel
-    position: Director Ejecutivo
-    text: 
-    img: paul.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:pvillarroel@aru.org.bo
-      - title: facebook
-        url: https://www.facebook.com/paul.villarroel.18?fref=ts
-  - name: Alvaro Chirino
-    position: Coordinador de la Unidad de Microdatos y Encuestas
-    text: 
-    img: alvaro.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:achirino@aru.org.bo
-      - title: twitter
-        url: https://twitter.com/Estbolivia
-  - name: Sherli Mamani
-    position: Responsable de Procesamiento
-    text: 
-    img: sherli.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:smamani@aru.org.bo
-      - title: facebook
-        url: https://www.facebook.com/sherli.mamanihuanca?fref=ts
-  - name: Beatriz Mamani
-    position: Responsable Recoleccion de Datos
-    text: 
-    img: beatriz.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:bmamani@aru.org.bo
-      - title: facebook
-        url: https://www.facebook.com/beatriz.mamani.106?fref=ts
-    
-# Clients information. Shown on Home and About pages.
-clients:
-#  - name: dribbble
-#    img: client01.png
-#  - name: Code is Poetry
-#    img: client02.png
-#  - name: Vimeo
-#    img: client03.png
-#  - name: VimeoPro
-#    img: client04.png
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "La Fundación ARU es un instituto de políticas públicas sin fines de lucro, independiente y plural"
-
-# Testimonial content. Shown on Home and About page. 
-#testimonial:
- #   message: "xiste una desigualdad mundial que está obstaculizando el progreso hacia el perfeccionamiento. Por el momento, poco conocemos de las personas que tienen menos oportunidades, pero estas son las personas que más necesitan la atención del mundo. Convertir aspiraciones globales o nacionales para acabar con la pobreza, con cambios reales en la vida de las personas, implicará saber más acerca cómo viven las personas más pobres y cómo mejorar su capacidad de acceder y utilizar datos."
- #   author: PARIS 21
- #   position: 
-theme: jekyll-theme-merlot
+#sass:
+#  style: compressed
