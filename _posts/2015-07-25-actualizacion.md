@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: poste
 title:  "Resumen General"
 author: Unidad de Datos
 categories:
