@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Resumen General"
-date:   2015-07-25 16:54:46
 author: Unidad de Datos
 categories:
 - project
@@ -12,14 +11,14 @@ thumb: avance.jpg
 <p>La presente sección tiene por propósito presentar al usuario un resumen general del avance del Operativo de Campo, de una manera práctica y actualizada en forma visual, en sus diferentes niveles de desagregación.</p>
 <div class="hline"></div>
 
-###Estado de Ejecución por Departamento
+### Estado de Ejecución por Departamento
 <iframe frameborder="0" src="http://aru.noip.me/actjiwasa/idep.html" width="900" height="820" align="center"></iframe> 
 <div class="hline"></div>
 
-###Estado de Ejecución por Municipio
+### Estado de Ejecución por Municipio
 <iframe frameborder="0" src="http://aru.noip.me/actjiwasa/imun.html" width="900" height="820" align="center"></iframe> 
 <div class="hline"></div>
 
-####Estado de Ejecución por Actividad Económica
+#### Estado de Ejecución por Actividad Económica
 <iframe frameborder="0" src="http://aru.noip.me/actjiwasa/iact.html" width="900" height="820" align="center"></iframe> 
 
