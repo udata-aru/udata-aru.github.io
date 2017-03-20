@@ -1,14 +1,11 @@
 ---
 layout: poste
-title:  "Resumen General"
+title:  "Resumen General 1"
 author: Unidad de Datos
-categories:
-- project
-img: avance.jpeg
-thumb: avance.jpg
 ---
 
-<p>La presente sección tiene por propósito presentar al usuario un resumen general del avance del Operativo de Campo, de una manera práctica y actualizada en forma visual, en sus diferentes niveles de desagregación.</p>
+La presente sección tiene por propósito presentar al usuario un resumen general del avance del Operativo de Campo, de una manera práctica y actualizada en forma visual, en sus diferentes niveles de desagregación.
+
 <div class="hline"></div>
 
 ### Estado de Ejecución por Departamento
