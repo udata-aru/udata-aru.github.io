@@ -1,5 +1,5 @@
 ---
-layout: poste
+layout: post
 title:  "Resumen General 1"
 author: Unidad de Datos
 ---
