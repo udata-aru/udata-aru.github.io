@@ -1,6 +1,7 @@
-********************************************** arudata.pkg
+********************************************** unique.pkg
 v 1
 d arudata
 d Program to count observations by group
-d Distribution-Date: 28 June 2012
+d Distribution-Date: April 18, 2018
 f arudata.ado
+f arudata.sthlp
