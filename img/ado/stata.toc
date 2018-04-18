@@ -1,4 +1,4 @@
 ********************************************** stata.toc
 v 3
 d Program to count observations by group
-p unique [The arudata.ado program for counting observations by group]
+p arudata [The arudata.ado program for counting observations by group]
