@@ -1,0 +1,6 @@
+********************************************** unique.pkg
+v 1
+d arudata
+d Program to count observations by group
+d Distribution-Date: 28 June 2012
+f arudata.ado
