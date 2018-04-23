@@ -1,4 +1,4 @@
 ********************************************** stata.toc
-v 3
-d Program to count observations by group
-p unique [The arudata.ado program for counting observations by group]
+v 1
+d Acceso al repositorio de Fundación Aru
+p arudata [arudata.ado permite tener acceso a las bases del repositorio de Fundación Aru]
