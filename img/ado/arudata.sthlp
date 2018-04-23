@@ -3,7 +3,8 @@
 {title:Title}
 
 {phang}
-{cmd:arudata} {hline 2} Permite tener acceso al repositorio de datos de Fundación Aru, el repositorio esta conformado  por bases de Aru y de fuentes secundarias en distintas áreas. Conozca mas de Aru en {browse "http://www.aru.org.bo":www.aru.org.bo}
+{cmd:arudata} {hline 2} Permite tener acceso al repositorio de datos de Fundación Aru, el repositorio esta conformado  por bases de Aru y de fuentes secundarias en distintas áreas. Conozca mas de Aru en {break} 
+{browse "http://www.aru.org.bo":www.aru.org.bo}
  
 
 {title:Syntax}
