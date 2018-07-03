@@ -59,7 +59,7 @@ a:active {
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
-  color: #666;
+  color: #3d3d3d;
 }
 /*--
 	Header Start
@@ -101,7 +101,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 200px 0 270px 0;
   position: relative;
 }
 #slider:before {
@@ -113,25 +113,27 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: 0.8;
+   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+   opacity: 0.4;
+  
 }
 #slider .block {
-  color: #E3E3E4;
+  color:#ffffff;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 45px;
-  line-height: 60px;
-  letter-spacing: 10px;
+  font-family: "Arial Black";
+  font-weight: 150;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 9px;
   padding-bottom: 45px;
 }
+
 #slider .block p {
-  font-size: 23px;
-  line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  font-size: 35px;
+  line-height: 40px;
   letter-spacing: 3px;
 }
 /*--
@@ -146,7 +148,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
+  color: #3D3D3D;
   padding-top: 20px;
 }
 #intro .block img {
@@ -188,6 +190,46 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	call-to-action Start
 --*/
+#call-to-action1 {
+  background: url("../img/accion-bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+#call-to-action1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #1d192c;
+  opacity: 0.5;
+}
+#call-to-action1 h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0;
+  font-size: 30px;
+}
+#call-to-action1 p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+#call-to-action1 .btn-call-to-action {
+  padding: 15px 35px;
+  border: none;
+  background-color: #fff;
+  font-size: 15px;
+  color: #333333;
+  margin-top: 30px;
+}
+
 #call-to-action {
   background: url("../img/call-to-action-bg.jpg") no-repeat;
   background-size: cover;
@@ -206,7 +248,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #1d192c;
+  background: transparent
   opacity: 0.8;
 }
 #call-to-action h2 {
@@ -227,6 +269,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #333333;
   margin-top: 30px;
 }
+
 /*--
 	Feature Start
 --*/
@@ -357,8 +400,9 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider-work Start
 --*/
+
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg1.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -374,16 +418,147 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+ background: transparent;
+  opacity: 0.1;
 }
 #global-header .block {
-  color: #E3E3E4;
+  color: #000000;
   margin: 0 auto;
   padding-left: 90px;
   text-align: center;
 }
 #global-header .block h1 {
+  font-weight: 100;
+  font-size: 48px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#global-header .block p {
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+/*--
+	Slider Noticias
+--*/
+#global-header1 {
+  background: url("../img/slider-bg2.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+  background-attachment: fixed;
+}
+#global-header1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background:transparent;
+  opacity: 0.5;
+}
+#global-header1 .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 90px;
+  text-align: center;
+}
+#global-header1 .block h1 {
+  font-weight: 100;
+  font-size: 48px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#global-header1 .block p {
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+/*--
+	Slider Servicios
+--*/
+#global-header2 {
+  background: url("../img/slider-bg3.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+  background-attachment: fixed;
+}
+#global-header2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background:transparent;
+ 
+}
+#global-header2 .block {
+  color: #000000;
+  margin: 0 auto;
+  padding-left: 90px;
+  text-align: center;
+}
+#global-header2 .block h1 {
+  font-weight: 100;
+  font-size: 48px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#global-header2 .block p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+/*--
+	Slider Contacto
+--*/
+
+#global-header3{
+  background: url("../img/slider-bg4.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+  background-attachment: fixed;
+}
+#global-header3:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.5;
+}
+#global-header3 .block {
+  color: #ffffff;
+  margin: 0 auto;
+  padding-left: 90px;
+  text-align: center;
+}
+#global-header3 .block h1 {
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 6px;
@@ -391,12 +566,14 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 0;
   text-transform: capitalize;
 }
-#global-header .block p {
+#global-header3 .block p {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+
+
 /*--
 	portfolio-work Start
 --*/
