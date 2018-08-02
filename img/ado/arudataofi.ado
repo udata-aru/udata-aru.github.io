@@ -8,8 +8,8 @@ program define arudataofi
 syntax anything 
 quietly {
 clear *
-import delimited using http://200.105.147.83/datumARU/eh/`anything'.csv, delimiter(";")
-do http://200.105.147.83/datumARU/eh/`anything'.do
+import delimited using http://192.168.1.45/datumARU/eh/`anything'.csv, delimiter(";")
+do http://192.168.1.45/datumARU/eh/`anything'.do
 label data `anything'
 note: Repositorio de Fundación Aru
 }
