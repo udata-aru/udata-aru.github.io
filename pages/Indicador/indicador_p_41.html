@@ -124,7 +124,8 @@ folder: Indicador
 					    </ul>
                     </ul>
 		
-		<!-- TABLA 1--> 		
+		<!-- TABLA 1--> 	
+                     <center>		
 					<table border="2" cellspacing="8">
 					  <caption style="color:#000000">Tabla Nº58: Departamentos que cumplen con participación de NNA</caption>
 					  <colgroup>
@@ -166,10 +167,18 @@ folder: Indicador
 						 </tr>
 						</tbody>
 		 			</table>
-					 <p style="font-size:70%" > Fuente: Elaboración propia con datos de “Presupuesto 
-					 Público para Niñas, Niños y Adolescentes en Bolivia. Documento Metodológico para
-					 la Clasificación de Recursos Asignados a la Infancia, Niñez y Adolescencia.
-					 Ministerio de Economía y Finanzas Públicas” </p>
+					
+					<p style="font-size:70%">
+					Fuente: Elaboración propia con datos de “Presupuesto Público para Niñas, Niños  <br/> 
+					y &nbsp; Adolescentes &nbsp; en  Bolivia. Documento Metodológico &nbsp; para la Clasificación  de  <br/>
+					Recursos Asignados &nbsp;a la Infancia, Niñez y Adolescencia. Ministerio de Economía <br/>
+					y Finanzas Públicas” &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;</p>
+					</center>
 					<br></br>
 					
 		<!-- TABLA 2-->			
@@ -442,7 +451,8 @@ folder: Indicador
 		                  series: {0: { color: '#1ebbd7' },},
                           width:800,
                           height:450,
-						  chartArea:  { backgroundColor:'#e6e6fa', },
+						  backgroundColor: '#e6e6fa',
+						  chartArea:  { backgroundColor:'#f5f5dc', },
                           vAxis: {title: 'Millones de Bs.',
 		                          gridlines: { count: 10, },
 		                                       maxValue:20000,},
@@ -483,7 +493,83 @@ folder: Indicador
 							Adolescencia. Ministerio de Economía y Finanzas Públicas” </p>
 	                     </center>
                         </body> 
-					 
+		<!-- grafica 2-->	
+
+                    <h3 style="color:#000000;" align="center"> Gráfica Nº7: Presupuesto para la niñez y adolescencia en porcentaje del PIB </h3>
+		
+			        <head>
+                       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                       <script>
+                       google.charts.load('current', {'packages':['corechart', 'line', 'bar', 'annotationchart']});
+                       google.charts.setOnLoadCallback(drawChart2);
+                        function drawChart2() {
+                        var data = new google.visualization.DataTable(); 
+                        data.addColumn('string', 'Año');
+                        data.addColumn('number', 'Gasto');
+                        data.addColumn({id: 'nota', label: 'nota', type: 'string', role: 'annotation'});
+                        data.addRows([		
+                        ['2005',  3.5, '3,5%'],
+                        ['2006',  3.7, '3,7%'],
+                        ['2007',  3.6, '3,6%'],
+                        ['2008',  3.4, '3,4%' ],
+                        ['2009',  4.2, '4,2%'],
+		                ['2010',  5.0, '5,0%'],
+		                ['2011',  5.3, '5,3%'],
+		                ['2012',  5.4, '5,4%'],
+		                ['2013',  5.7, '5,7%'],
+		                ['2014',  7.4, '7,4%'],
+                        ['2015',  7.8, '7,8%'],
+                        ]);
+
+                        var options = {
+		                  title: 'Gráfica Nº7: Presupuesto para la niñez y adolescencia en porcentaje del PIB)',
+                          titlePosition: 'none',
+						  curveType: 'function',
+		                  series: {0: { color: '#1ebbd7' },},
+                          width:800,
+                          height:450,
+						  backgroundColor: '#e6e6fa',
+						  chartArea:  { backgroundColor:'#f5f5dc', },
+                          vAxis: {title: 'En porcentaje del PIB.',
+		                          gridlines: { count: 10, },
+								  minValue:0.0,
+		                          maxValue:0.9,
+								  format: 'percent',
+								  ticks: [{v:0, f:'0,0%'},{v:1, f:'1,0%'},{v:2, f:'2,0%'}, {v:3, f:'3,0%'}, {v:4, f:'4,0%'}, {v:5, f:'5,0%'}, {v:6, f:'6,0%'}, {v:7, f:'7,0%'}, {v:8, f:'8,0%'}, {v:9, f:'9,0%'} ]},
+                          hAxis: {title: 'Año'},
+		                  displayAnnotations: true,
+                          legend: 'none',
+		                  pointSize: 5,
+		                  pointShape:'square',
+		                  annotations: { boxStyle: { stroke: '#82983b',
+                                                     strokeWidth: 1,
+                                                     rx: 0,
+                                                     ry: 0,
+                                                     gradient: { color1: '#82983b',
+                                                                 color2: '#82983b',
+																 x1: '0%', y1: '0%',
+																 x2: '0%', y2: '0%',
+																 useObjectBoundingBoxUnits: true},
+						                           },
+	                                     highContrast:false,
+	                                     textStyle: { fontName: 'Georgia',
+                                                      fontSize: 12,
+                                                      color: '#f9f9f9',
+                                                      auraColor: 'none',
+                                                      opacity: 1.0 }, 
+	                                    },};
+                        var chart = new google.visualization.LineChart(document.getElementById('P41B'));
+                        chart.draw(data, options);
+                        }
+                       </script>
+                       </head>
+                        <body>
+                          <div id="P41B"></div>
+						</body> 
+						<p style="font-size:70%" >  Fuente: “Presupuesto Público para Niñas, 
+							Niños y Adolescentes en Bolivia. Documento Metodológico para la
+							Clasificación de Recursos Asignados a la Infancia, Niñez y 
+							Adolescencia. Ministerio de Economía y Finanzas Públicas” </p>
 					 
                 </div>
                 
