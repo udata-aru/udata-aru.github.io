@@ -57,5 +57,22 @@ Summary:
  <center> 
 <img src="" id="imagen" align="center">
  </center> 
+ 
+ <br>
+ 
+ <h3 style="color:#011f4b" align="justify" >Unicef lleva adelante el Programa de Cooperación en Bolivia 2018 - 2022
+ que tiene el objetivo de apoyar en la reducción de las brechas de 
+ desigualdad, especialmente en los pueblos indígenas y lograr que los 
+ niños y adolescentes constituyan un elemento fundamental para el 
+ desarrollo sostenible.</h3>
+ 
+ <br>
+ 
+ <h3 style="color:#011f4b" align="justify" > El programa se estructura en torno a los cuatro ámbitos o resultados 
+ (outcomes): 1) Todos los niños sobreviven y prosperan, 2) Todos los niños
+ están protegidos contra la violencia y la explotación, 3) Todos los niños
+ aprenden y 4) Todos los niños disfrutan de las mismas oportunidades en la
+ vida.</h3>
+ 
 </body>
 
