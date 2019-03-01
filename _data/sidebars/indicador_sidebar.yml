@@ -55,9 +55,6 @@ entries:
     - title: Indicador OC2_2
       url: /indicador_p22.html
       output: web
-    - title: Indicador OC2_3
-      url: /indicador_p23.html
-      output: web
     - title: Indicador OP21_2
       url: /indicador_r21.html
       output: web
