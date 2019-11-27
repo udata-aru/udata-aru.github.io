@@ -1,5 +1,5 @@
 {smcl}
-{right:version 1}
+{right:version 2}
 {title:Title}
 
 {phang}
@@ -10,7 +10,7 @@
 {title:Syntax}
 
 {p 8 16 2}
-{cmd: arudata} database 
+{cmd: arudata} database, pass(contraseña)
 {p_end}
 
 {marker Main}{...}
@@ -18,6 +18,7 @@
 {synopthdr:Main}
 {synoptline}
 {synopt:{opt database}} El código de la base de datos de interés (Ver catálogo de datos (abajo) para conocer las bases disponibles)
+{synopt:{opt pass}} La contraseña provista por fundación Aru
 {synoptline}
 {p2colreset}{...}
 
