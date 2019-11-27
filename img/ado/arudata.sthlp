@@ -1,5 +1,5 @@
 {smcl}
-{right:version 2}
+{right:version 1}
 {title:Title}
 
 {phang}
@@ -10,7 +10,7 @@
 {title:Syntax}
 
 {p 8 16 2}
-{cmd: arudata} database, pass(contraseña)
+{cmd: arudata} database, pass(contraseña) 
 {p_end}
 
 {marker Main}{...}
@@ -18,7 +18,11 @@
 {synopthdr:Main}
 {synoptline}
 {synopt:{opt database}} El código de la base de datos de interés (Ver catálogo de datos (abajo) para conocer las bases disponibles)
-{synopt:{opt pass}} La contraseña provista por fundación Aru
+{synoptline}
+{p2colreset}{...}
+
+{synoptset 20 tabbed}{...}
+{synopt:{opt pass}} Contraseña provista por Fundación Aru
 {synoptline}
 {p2colreset}{...}
 
@@ -84,10 +88,10 @@ el prefijo `eh' seguido del año de interes a dos digitos (ej: 2011=11, 2017=17)
 {bf:Ejemplo para las encuestas a hogares} 
 
     Encuesta a hogares 2017, base vivienda
-    	. arudata eh17v
+    	. arudata eh17v, pass(xxxx)
 		
     Encuesta a hogares 2017, base cultura
-    	. arudata eh17c	
+    	. arudata eh17c, pass(xxxx)	
 
 
 {title:Author}
